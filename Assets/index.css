@@ -1,0 +1,22 @@
+.conteneur{
+    position: relative; 
+  }
+
+.txtcontenu {
+    opacity: 0;
+    transition: 0.5s;
+    z-index:2
+  }
+
+.txtcontenu2 {
+    opacity: 0;
+    transition: 0.5s;
+    z-index:2
+  }
+
+.conteneur:hover:before{
+    opacity: 0.5;
+  }
+  .conteneur:hover .txtcontenu {
+    opacity: 1;
+  }
